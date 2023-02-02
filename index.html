@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/styles.css"/>
-</head>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
 
-<body>
-  <div>
-    <h1>
-      Jesus A Camacho
-    </h1>
-    <h2>Software Developer</h2>
-    <hr>
-    <p>My <em>favorite</em> thing about programming is that i get to create something from scratch.</p>
-      <img src="/images/coding-portfolio.jpeg" width="500px" alt="picture of screen with written code"/>
-      <h3>About Me</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam delectus sapiente asperiores ullam deleniti magnam laboriosam architecto, quia, consectetur, sint omnis nobis itaque? Sunt laborum dolores nam, cupiditate quos est.</p>
-      
-      <h3>My Projects</h3>
+  <body>
+    <div>
+      <h1>Jesus A Camacho</h1>
+      <h2>Software Developer</h2>
+      <hr />
+      <p>
+        My <em>favorite</em> thing about programming is that i get to create
+        something from scratch.
+      </p>
+
+      <!--added <a>href and target to picture-->
+      <a href="https://www.w3schools.com/" target="_blank">
+        <img
+          src="/images/coding-portfolio.jpeg"
+          width="500px"
+          alt="picture of screen with written code"
+        />
+      </a>
+
+      <!--added fieldset and legend-->
+      <fieldset>
+        <legend>
+          <h3>About Me</h3>
+        </legend>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+          delectus sapiente asperiores ullam deleniti magnam laboriosam
+          architecto, quia, consectetur, sint omnis nobis itaque? Sunt laborum
+          dolores nam, cupiditate quos est.
+        </p>
+      </fieldset>
+
+      <!--added fieldset and legend-->
+      <fieldset>
+        <legend>
+          <h3>My Projects</h3>
+        </legend>
         <ul>
           <li>Project 1</li>
           <li>Project 2</li>
           <li>Project 3</li>
         </ul>
-    
-    <h3>Contact Me</h3>
-    <p><b>Phone:</b> (619) 555-1234</p>
-    <b>Email:</b><a href="fake@email.com"> fake@email.com</a>
+      </fieldset>
+      <!--added fieldset and legend-->
+      <fieldset>
+        <legend>
+          <h3>Contact Me</h3>
+        </legend>
+        <p><b>Phone:</b> (619) 555-1234</p>
+        <!--added email button-->
+        <b>Email:</b
+        ><button class="email-button">
+          <a href="fake@email.com"> fake@email.com</a>
+        </button>
+      </fieldset>
 
-
-
-
-
-    <!-- 
+      <!-- 
       Directions:
       1. Create a DIV element to contain the page content
       2. Inside your DIV, create an H1 tag that contains your name as the text
@@ -56,7 +84,6 @@
           - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
           - In your contact me section, make the text "Phone:" and "Email:" bolded
         -->
-      </div>
-</body>
-
+    </div>
+  </body>
 </html>
